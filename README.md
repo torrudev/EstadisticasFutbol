@@ -16,3 +16,20 @@ Este proyecto tiene fines **educativos** y está diseñado para reforzar conocim
 
 ## 🏗 Estructura del proyecto
 
+- **`src/`**: Contiene todo el código fuente del proyecto.
+  - **`api/`**: Aquí se maneja la conexión a la API de football-data.org.
+  - **`storage/`**: Se encarga de la creación y escritura de los archivos CSV con los resultados.
+  - **`main.py`**: El script principal donde se ejecuta la lógica del proyecto.
+
+- **`data/`**: Carpeta que almacena los archivos CSV generados con los resultados.
+
+- **`venv/`**: Entorno virtual que debe ser ignorado por Git, contiene las dependencias instaladas localmente.
+
+- **`.env`**: Archivo utilizado para guardar variables de entorno, como claves de API u otra información sensible.  
+  ⚠️ Es importante **no subirlo al repositorio** y asegurarse de que esté incluido en el `.gitignore`.
+
+- **`.gitignore`**: Archivo donde se especifican los archivos y carpetas que Git no debe subir al repositorio (como el entorno virtual, el archivo `.env` o fichero `data/`).
+
+- **`requirements.txt`**: Lista de dependencias del proyecto que pueden ser instaladas con `pip`.
+
+- **`README.md`**: Este archivo, donde se documenta el proyecto.
