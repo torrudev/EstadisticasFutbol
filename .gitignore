@@ -1,5 +1,15 @@
 # Entorno virtual
 venv/
 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de configuración del entorno
+*.env
+.env
+
 # csv y otros archivos generados
 data/
